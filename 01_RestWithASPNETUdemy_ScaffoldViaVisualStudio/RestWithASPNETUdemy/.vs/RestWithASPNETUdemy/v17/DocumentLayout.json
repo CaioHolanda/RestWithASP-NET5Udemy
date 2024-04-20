@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\PROJETOS\\Code\\RespWithASP-NET5Udemy\\01_RestWithASPNETUdemy_ScaffoldViaVisualStudio\\RestWithASPNETUdemy\\",
+  "WorkspaceRootPath": "C:\\PROJETOS\\Code\\RespWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\01_RestWithASPNETUdemy_ScaffoldViaVisualStudio\\RestWithASPNETUdemy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A9B64E74-85F1-4024-85E0-528B5F5873FB}|RestWithASPNETUdemy.csproj|c:\\projetos\\code\\respwithasp-net5udemy\\01_restwithaspnetudemy_scaffoldviavisualstudio\\restwithaspnetudemy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A9B64E74-85F1-4024-85E0-528B5F5873FB}|RestWithASPNETUdemy.csproj|c:\\projetos\\code\\respwithasp-net5udemy\\restwithasp-net5udemy\\01_restwithaspnetudemy_scaffoldviavisualstudio\\restwithaspnetudemy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A9B64E74-85F1-4024-85E0-528B5F5873FB}|RestWithASPNETUdemy.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -36,9 +36,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\PROJETOS\\Code\\RespWithASP-NET5Udemy\\01_RestWithASPNETUdemy_ScaffoldViaVisualStudio\\RestWithASPNETUdemy\\Program.cs",
+              "DocumentMoniker": "C:\\PROJETOS\\Code\\RespWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\01_RestWithASPNETUdemy_ScaffoldViaVisualStudio\\RestWithASPNETUdemy\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\PROJETOS\\Code\\RespWithASP-NET5Udemy\\01_RestWithASPNETUdemy_ScaffoldViaVisualStudio\\RestWithASPNETUdemy\\Program.cs",
+              "ToolTip": "C:\\PROJETOS\\Code\\RespWithASP-NET5Udemy\\RestWithASP-NET5Udemy\\01_RestWithASPNETUdemy_ScaffoldViaVisualStudio\\RestWithASPNETUdemy\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
