@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PROJETOS\\Code\\RespWithASP-NET5Udemy\\01_RestWithASPNETUdemy_ScaffoldViaVisualStudio\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj": {}
+    "C:\\PROJETOS\\Code\\RestWithASP-NET5Udemy\\01_RestWithASPNETUdemy_ScaffoldViaVisualStudio\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj": {}
   },
   "projects": {
-    "C:\\PROJETOS\\Code\\RespWithASP-NET5Udemy\\01_RestWithASPNETUdemy_ScaffoldViaVisualStudio\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj": {
+    "C:\\PROJETOS\\Code\\RestWithASP-NET5Udemy\\01_RestWithASPNETUdemy_ScaffoldViaVisualStudio\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PROJETOS\\Code\\RespWithASP-NET5Udemy\\01_RestWithASPNETUdemy_ScaffoldViaVisualStudio\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj",
+        "projectUniqueName": "C:\\PROJETOS\\Code\\RestWithASP-NET5Udemy\\01_RestWithASPNETUdemy_ScaffoldViaVisualStudio\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj",
         "projectName": "RestWithASPNETUdemy",
-        "projectPath": "C:\\PROJETOS\\Code\\RespWithASP-NET5Udemy\\01_RestWithASPNETUdemy_ScaffoldViaVisualStudio\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj",
+        "projectPath": "C:\\PROJETOS\\Code\\RestWithASP-NET5Udemy\\01_RestWithASPNETUdemy_ScaffoldViaVisualStudio\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj",
         "packagesPath": "C:\\Users\\julio\\.nuget\\packages\\",
-        "outputPath": "C:\\PROJETOS\\Code\\RespWithASP-NET5Udemy\\01_RestWithASPNETUdemy_ScaffoldViaVisualStudio\\RestWithASPNETUdemy\\obj\\",
+        "outputPath": "C:\\PROJETOS\\Code\\RestWithASP-NET5Udemy\\01_RestWithASPNETUdemy_ScaffoldViaVisualStudio\\RestWithASPNETUdemy\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

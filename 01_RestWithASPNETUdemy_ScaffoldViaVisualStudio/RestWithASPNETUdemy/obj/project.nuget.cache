@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XtRI/DuXexVyrHVY9LHt/71kUBHeSU34yBCUiv8RRf6+okCisfYIlpDoflrHYMRtVIlexuBtLbvReLlZktS4yQ==",
+  "dgSpecHash": "Ah+ad1PDdVUJS7zyUf7bqJecYIx8HdryJC1QsY7pf46E1TBSKLRk7CpYcuIf1+Q+h4rivw2kR5OhgfpCITwioA==",
   "success": true,
-  "projectFilePath": "C:\\PROJETOS\\Code\\RespWithASP-NET5Udemy\\01_RestWithASPNETUdemy_ScaffoldViaVisualStudio\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj",
+  "projectFilePath": "C:\\PROJETOS\\Code\\RestWithASP-NET5Udemy\\01_RestWithASPNETUdemy_ScaffoldViaVisualStudio\\RestWithASPNETUdemy\\RestWithASPNETUdemy.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
