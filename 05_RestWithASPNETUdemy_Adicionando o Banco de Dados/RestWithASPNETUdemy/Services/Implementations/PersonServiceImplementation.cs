@@ -1,0 +1,82 @@
+﻿using RestWithASPNETUdemy.Model;
+using RestWithASPNETUdemy.Model.Context;
+using System;
+
+namespace RestWithASPNETUdemy.Services.Implementations
+{
+    public class PersonServiceImplementation : IPersonService
+    {
+        // Contador fake para geracao de ID
+        // private volatile int count;
+        
+        private MySQLContext _context;
+        public PersonServiceImplementation(MySQLContext context)
+        {
+            _context = context;
+        }
+
+        //Metodo responsavel pela criacao de uma nova person
+        //No caso do uso de um banco de dados este e o ponto para a persistencia de dados
+        public Person Create(Person person)
+        {
+            try{
+                _context.Add(person);
+                _context.SaveChanges();
+
+            }
+            catch(Exception) {
+                throw;
+            }
+            return person;
+        }
+
+        public void Delete(long id)
+        {
+            var result = _context.Persons.SingleOrDefault(p => p.Id.Equals(id));
+            if (result != null)
+            {
+                try
+                {
+                    _context.Persons.Remove(result);
+                    _context.SaveChanges();
+                }
+                catch (Exception)
+                {
+                    throw;
+                }
+            }
+        }
+
+        public List<Person> FindAll()
+        {
+            return _context.Persons.ToList();
+        }
+
+        public Person FindById(long id)
+        {
+            return _context.Persons.SingleOrDefault(p=>p.Id.Equals(id));
+        }
+        public Person Update(Person person)
+        {
+            if (!Exists(person.Id)) return new Person();
+            var result =_context.Persons.SingleOrDefault(p=>p.Id.Equals(person.Id));
+            if (result != null)
+            {
+                try
+                {
+                    _context.Entry(result).CurrentValues.SetValues(person);
+                    _context.SaveChanges();
+                }
+                catch (Exception)
+                {
+                    throw;
+                }
+            }
+            return person;
+        }
+        private bool Exists(long id)
+        {
+            return _context.Persons.Any(p=>p.Id.Equals(id));
+        }
+    }
+}
