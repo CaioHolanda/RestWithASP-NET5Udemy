@@ -3,9 +3,12 @@
 namespace RestWithASPNETUdemy.Services.Implementations
 {
     public class PersonServiceImplementation : IPersonService
-    {
+    {  
+        // Contador fake para geracao de ID
         private volatile int count;
 
+        //Metodo responsavel pela criacao de uma nova person
+        //No caso do uso de um banco de dados este e o ponto para a persistencia de dados
         public Person Create(Person person)
         {
             return person;
